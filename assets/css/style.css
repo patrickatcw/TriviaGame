@@ -22,10 +22,11 @@
 		}
 
 /*.timer {
-		color: yellow;
-		height: 100px;
-		width: 400px;
-		font-size: 50px; 
+		font-family: 'Creepster', cursive;
+		color: red;
+		height: 20px;
+		width: 100px;
+		font-size: 25px; 
 		text-align: center;
 		line-height: 10px;
 		margin-left: 450px;
@@ -184,3 +185,20 @@
 }
 */
 
+/*
+.score {
+		
+		font-family: 'Creepster', cursive;
+		color: red;
+		text-align: center;
+		font-size: 125px;
+		line-height: 125px;
+		min-width: 100%;
+		min-height: 100%;
+		position: fixed;
+		top: 0;
+    	bottom: 0;
+    	right: 0;
+    	left: 0;
+		}
+*/
