@@ -341,7 +341,99 @@
     	left: 0;
     	}*/
 
-  /*.continuebutton {
+    .rantime1 {
+    	background-image: url("C:/case homework/TriviaGame/assets/images/rantime.PNG");
+		font-family: 'Creepster', cursive;
+		color: red;
+		text-shadow: 2px 2px 5px yellow;
+		text-align: center;
+		font-size: 100px;
+		padding-top: 20px;
+		line-height: 100px;
+		min-width: 100%;
+		min-height: 100%;
+		position: fixed;
+		top: 0;
+    	bottom: 0;
+    	right: 0;
+    	left: 0;
+		 }
+
+		/*.rantime2 {
+    	background-image: url("C:/case homework/TriviaGame/assets/images/rantime.PNG");
+		font-family: 'Creepster', cursive;
+		color: red;
+		text-shadow: 2px 2px 5px yellow;
+		text-align: center;
+		font-size: 100px;
+		padding-top: 20px;
+		line-height: 100px;
+		min-width: 100%;
+		min-height: 100%;
+		position: fixed;
+		top: 0;
+    	bottom: 0;
+    	right: 0;
+    	left: 0;
+		 }*/
+
+		/*.rantime3 {
+    	background-image: url("C:/case homework/TriviaGame/assets/images/rantime.PNG");
+		font-family: 'Creepster', cursive;
+		color: red;
+		text-shadow: 2px 2px 5px yellow;
+		text-align: center;
+		font-size: 100px;
+		padding-top: 20px;
+		line-height: 100px;
+		min-width: 100%;
+		min-height: 100%;
+		position: fixed;
+		top: 0;
+    	bottom: 0;
+    	right: 0;
+    	left: 0;
+		 }*/
+
+		/*.rantime4 {
+    	background-image: url("C:/case homework/TriviaGame/assets/images/rantime.PNG");
+		font-family: 'Creepster', cursive;
+		color: red;
+		text-shadow: 2px 2px 5px yellow;
+		text-align: center;
+		font-size: 100px;
+		padding-top: 20px;
+		line-height: 100px;
+		min-width: 100%;
+		min-height: 100%;
+		position: fixed;
+		top: 0;
+    	bottom: 0;
+    	right: 0;
+    	left: 0;
+		 }*/
+
+		/*.rantime5 {
+    	background-image: url("C:/case homework/TriviaGame/assets/images/rantime.PNG");
+		font-family: 'Creepster', cursive;
+		color: red;
+		text-shadow: 2px 2px 5px yellow;
+		text-align: center;
+		font-size: 100px;
+		padding-top: 20px;
+		line-height: 100px;
+		min-width: 100%;
+		min-height: 100%;
+		position: fixed;
+		top: 0;
+    	bottom: 0;
+    	right: 0;
+    	left: 0;
+		 }*/
+
+
+
+  .continuebutton {
   		margin-left: 150px;
   		margin-top: 110px;
 		float: left;
@@ -365,20 +457,20 @@
 		margin-left: 475px;
 		margin-top: 225px;
 
-		}*/
+		}
 
 
-.score {
+/*.score {
 		
 		font-family: 'Creepster', cursive;
 		color: red;
 		text-align: center;
 		text-shadow: 2px 2px 5px yellow;
-		font-size: 125px;
-		line-height: 110px;
+		font-size: 175px;
+		line-height: 130px;
 		min-width: 100%;
 		min-height: 100%;
-		padding-top: 25px;
+		padding-top: 30px;
 		position: fixed;
 		top: 0;
     	bottom: 0;
@@ -395,5 +487,5 @@
 		line-height: 100px;
 		padding-top: 175px;
 
-}
+}*/
 
