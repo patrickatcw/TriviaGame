@@ -21,17 +21,19 @@
 		margin-top: -25px;
 		}
 
-/*.timer {
+.timer {
 		font-family: 'Creepster', cursive;
 		color: red;
-		height: 20px;
-		width: 100px;
-		font-size: 25px; 
+		text-shadow: 2px 2px 5px yellow;
+		height: 35px;
+		width: 625px;
+		font-size: 50px; 
 		text-align: center;
-		line-height: 10px;
-		margin-left: 450px;
-		margin-top: -100px;
-		}*/
+		line-height: 65px;
+		margin-left: 465px;
+		margin-top: 12px;
+		padding-bottom: 20px;
+		}
 
 /*.directions {
 		font-family: 'Creepster', cursive;
@@ -68,14 +70,14 @@
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
 		font-size: 50px;
-		line-height: 50px;
+		line-height: 60px;
 		background-image: url("C:/case homework/TriviaGame/assets/images/1.gif");
 		height: 340px;
 		width: 625px;
 		align-content: center;
 		margin-left: 450px;
-		margin-top: 200px;
-		padding-top: 60px;
+		margin-top: 125px;
+		padding-top: 40px;
 		border: 2px solid red;
 			}
 
@@ -85,14 +87,14 @@
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
 		font-size: 50px;
-		line-height: 50px;
+		line-height: 60px;
 		background-image: url("C:/case homework/TriviaGame/assets/images/2.gif");
 		height: 340px;
 		width: 625px;
 		align-content: center;
 		margin-left: 450px;
-		margin-top: 200px;
-		padding-top: 60px;
+		margin-top: 125px;
+		padding-top: 40px;
 		border: 2px solid red;
 			}*/
 
@@ -102,14 +104,14 @@
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
 		font-size: 50px;
-		line-height: 50px;
+		line-height: 60px;
 		background-image: url("C:/case homework/TriviaGame/assets/images/3.gif");
 		height: 340px;
 		width: 625px;
 		align-content: center;
 		margin-left: 450px;
-		margin-top: 200px;
-		padding-top: 60px;
+		margin-top: 125px;
+		padding-top: 40px;
 		border: 2px solid red;
 			}*/
 
@@ -119,14 +121,14 @@
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
 		font-size: 50px;
-		line-height: 50px;
+		line-height: 60px;
 		background-image: url("C:/case homework/TriviaGame/assets/images/4.gif");
 		height: 340px;
 		width: 625px;
 		align-content: center;
 		margin-left: 450px;
-		margin-top: 200px;
-		padding-top: 60px;
+		margin-top: 125px;
+		padding-top: 40px;
 		border: 2px solid red;
     		}*/
 
@@ -136,14 +138,14 @@
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
 		font-size: 50px;
-		line-height: 50px;
+		line-height: 60px;
 		background-image: url("C:/case homework/TriviaGame/assets/images/5.gif");
 		height: 340px;
 		width: 625px;
 		align-content: center;
 		margin-left: 450px;
-		margin-top: 200px;
-		padding-top: 60px;
+		margin-top: 125px;
+		padding-top: 40px;
 		border: 2px solid red;
 			}*/
 
