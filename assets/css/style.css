@@ -11,42 +11,46 @@
 		}
 
 
-/*.header {
+.header {
 		font-family: 'Creepster', cursive;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
-		font-size: 88px; 
+		font-size: 180px; 
 		text-align: center;
 		line-height: 10px;
-		margin-top: -25px;
-		}*/
+		margin-top: 100px;
+		}
 
-/*.timer {
+.timer {
 		font-family: 'Creepster', cursive;
 		color: red;
+		display: none;
 		text-shadow: 2px 2px 5px yellow;
 		height: 35px;
 		width: 700px;
 		font-size: 60px;
 		font-weight: bold; 
 		text-align: center;
-		line-height: 85px;
+		line-height: 75px;
 		margin-left: 425px;
 		margin-top: 25px;
 		padding-bottom: 20px;
-		}*/
+		}
 
-/*.directions {
+.directions {
 		font-family: 'Creepster', cursive;
+		font-size: 34px;
 		color: red;
+		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
-		line-height: 0px;
+		line-height: 25px;
 		background-image: url("C:/case homework/TriviaGame/assets/images/start.gif");
 		height: 340px;
 		width: 625px;
 		align-content: center;
+		margin-top: 120px;
 		margin-left: 450px;
-		padding-top: 10px;
+		padding-top: 15px;
     	border: 2px solid red;
     	
 		}
@@ -54,19 +58,24 @@
 .button {
 		float: left;
 		padding-left: 60px;
-		padding-top: 30px;
+		padding-top: 45px;
 		}
+
+
 
 .aside {
 		float: right;
 		font-family: 'Creepster', cursive;
+		font-size: 33px;
 		color: red;
-		padding-left: 20px;
-		padding-top: 25px;
-		}*/
+		text-shadow: 2px 2px 5px yellow;
+		padding-left: 10px;
+		padding-top: 45px;
+		}
 
-/*.question1 {
+.question1 {
 		font-family: 'Creepster', cursive;
+		display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -81,10 +90,15 @@
 		margin-top: 175px;
 		padding-top: 20px;
 		border: 2px solid red;
-			}*/
+			}
 
-/*.question2 {
+.horrormp3 {
+	display: none;
+}
+
+.question2 {
 		font-family: 'Creepster', cursive;
+		display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -99,10 +113,11 @@
 		margin-top: 175px;
 		padding-top: 20px;
 		border: 2px solid red;
-			}*/
+			}
 
-/*.question3 {
+.question3 {
 		font-family: 'Creepster', cursive;
+		display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -117,10 +132,11 @@
 		margin-top: 175px;
 		padding-top: 20px;
 		border: 2px solid red;
-			}*/
+			}
 
-/*.question4 {
+.question4 {
 		font-family: 'Creepster', cursive;
+		display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -135,10 +151,11 @@
 		margin-top: 175px;
 		padding-top: 20px;
 		border: 2px solid red;
-    		}*/
+    		}
 
-/*.question5 {
+.question5 {
 		font-family: 'Creepster', cursive;
+		display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -153,12 +170,13 @@
 		margin-top: 175px;
 		padding-top: 5px;
 		border: 2px solid red;
-			}*/
+			}
 
 
 .wrongfor1 {
 	background-image: url("C:/case homework/TriviaGame/assets/images/wrongfor1.jpg");
 	font-family: 'Creepster', cursive;
+	display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -176,10 +194,11 @@
 }
 
 
-/*
+
 .wrongfor2 {
 	background-image: url("C:/case homework/TriviaGame/assets/images/wrongfor2.jpg");
 	font-family: 'Creepster', cursive;
+	display: none;
 	color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -195,11 +214,12 @@
     	left: 0;
 		
 }
-*/
 
-/*.wrongfor3 {
+
+.wrongfor3 {
 	background-image: url("C:/case homework/TriviaGame/assets/images/wrongfor3.PNG");
 	font-family: 'Creepster', cursive;
+	display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -213,11 +233,12 @@
     	bottom: 0;
     	right: 0;
     	left: 0;
-    	}*/
+    	}
 	
-/*.wrongfor4 {
+.wrongfor4 {
 	background-image: url("C:/case homework/TriviaGame/assets/images/wrongfor4.jpg");
 	font-family: 'Creepster', cursive;
+	display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -231,11 +252,12 @@
     	bottom: 0;
     	right: 0;
     	left: 0;
-    	}*/
+    	}
 
-/*.wrongfor5 {
+.wrongfor5 {
 	background-image: url("C:/case homework/TriviaGame/assets/images/wrongfor5.jpg");
 	font-family: 'Creepster', cursive;
+	display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -249,11 +271,12 @@
     	bottom: 0;
     	right: 0;
     	left: 0;
-    	}*/
+    	}
 
-    	/*.correctfor1 {
+    	.correctfor1 {
 	background-image: url("C:/case homework/TriviaGame/assets/images/correctfor1.jpg");
 	font-family: 'Creepster', cursive;
+	display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -267,11 +290,12 @@
     	bottom: 0;
     	right: 0;
     	left: 0;
-    	}*/
+    	}
 
-    	/*.correctfor2 {
+    	.correctfor2 {
 	background-image: url("C:/case homework/TriviaGame/assets/images/correctfor2.jpg");
 	font-family: 'Creepster', cursive;
+	display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -285,11 +309,12 @@
     	bottom: 0;
     	right: 0;
     	left: 0;
-    	}*/
+    	}
 
-    	/*.correctfor3 {
+    	.correctfor3 {
 	background-image: url("C:/case homework/TriviaGame/assets/images/correctfor3.jpg");
 	font-family: 'Creepster', cursive;
+	display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -303,11 +328,12 @@
     	bottom: 0;
     	right: 0;
     	left: 0;
-    	}*/
+    	}
 
-    	/*.correctfor4 {
+    	.correctfor4 {
 	background-image: url("C:/case homework/TriviaGame/assets/images/correctfor4.jpg");
 	font-family: 'Creepster', cursive;
+	display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -321,11 +347,12 @@
     	bottom: 0;
     	right: 0;
     	left: 0;
-    	}*/
+    	}
 
-    	/*.wrongfor5 {
+    	.correctfor5 {
 	background-image: url("C:/case homework/TriviaGame/assets/images/correctfor5.jpg");
 	font-family: 'Creepster', cursive;
+	display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -339,11 +366,12 @@
     	bottom: 0;
     	right: 0;
     	left: 0;
-    	}*/
+    	}
 
     .rantime1 {
     	background-image: url("C:/case homework/TriviaGame/assets/images/rantime.PNG");
 		font-family: 'Creepster', cursive;
+		display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -359,9 +387,10 @@
     	left: 0;
 		 }
 
-		/*.rantime2 {
+		.rantime2 {
     	background-image: url("C:/case homework/TriviaGame/assets/images/rantime.PNG");
 		font-family: 'Creepster', cursive;
+		display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -375,11 +404,12 @@
     	bottom: 0;
     	right: 0;
     	left: 0;
-		 }*/
+		 }
 
-		/*.rantime3 {
+		.rantime3 {
     	background-image: url("C:/case homework/TriviaGame/assets/images/rantime.PNG");
 		font-family: 'Creepster', cursive;
+		display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -393,11 +423,12 @@
     	bottom: 0;
     	right: 0;
     	left: 0;
-		 }*/
+		 }
 
-		/*.rantime4 {
+		.rantime4 {
     	background-image: url("C:/case homework/TriviaGame/assets/images/rantime.PNG");
 		font-family: 'Creepster', cursive;
+		display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -411,11 +442,12 @@
     	bottom: 0;
     	right: 0;
     	left: 0;
-		 }*/
+		 }
 
-		/*.rantime5 {
+		.rantime5 {
     	background-image: url("C:/case homework/TriviaGame/assets/images/rantime.PNG");
 		font-family: 'Creepster', cursive;
+		display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
@@ -429,11 +461,12 @@
     	bottom: 0;
     	right: 0;
     	left: 0;
-		 }*/
+		 }
 
 
 
   .continuebutton {
+  		display: none;
   		margin-left: 150px;
   		margin-top: 110px;
 		float: left;
@@ -441,6 +474,7 @@
   	}
 
   	.arrow {
+  		display: none;
   		position: fixed;
 		margin-left: 500px;
 		margin-top: 200px;
@@ -449,6 +483,7 @@
 
 	.text {
 		font-family: 'Creepster', cursive;
+		display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		position: static;
@@ -460,9 +495,10 @@
 		}
 
 
-/*.score {
+.score {
 		
 		font-family: 'Creepster', cursive;
+		display: none;
 		color: red;
 		text-align: center;
 		text-shadow: 2px 2px 5px yellow;
@@ -480,6 +516,7 @@
 
 .results {
 		font-family: 'Creepster', cursive;
+		display: none;
 		color: red;
 		text-align: center;
 		text-shadow: 2px 2px 5px yellow;
@@ -487,5 +524,5 @@
 		line-height: 100px;
 		padding-top: 175px;
 
-}*/
+}
 

@@ -2,7 +2,7 @@
     
     <head>
      <meta charset="UTF-8">
-	<title>week-4-game</title>
+	<title>TriviaGame</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
@@ -12,69 +12,89 @@
 
     <body>
 
-    <!--<audio controls loop>
-    <source src="C:/case homework/TriviaGame/assets/horror.mp4">
-    </audio>-->
+    <!--<audio>
+    <source src="C:/case homework/TriviaGame/assets/horror.mp3">
+    </audio></-->                                                                       <!--need help with audio to work-->
+
+                        <!--or????-->
+
+    <!--<audio src="horror.mp3" controls></audio>-->
 
     <div class="container">
     <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
 
+        <div class="firstpage">
+            <div class="header">                              
+                <h1>Horror Cinema Trivia</h1>
+            </div>
+        <br>
+        <br>
+
+            <div class="directions">
+                <h2>Answer the following 5 questions</h2><br>
+                <h2>as if your life depends on it!!!</h2><br>
+                <h2>You have 20 seconds to answer each question</h2>
+
+                <div class="button">
+                    <button id="popcorn">
+                        <image src="C:/case homework/TriviaGame\/assets/images/popcorn.gif"
+                        height= 115, width= 115/>
+                    </button>
+
+                    <div class="aside">
+                        <h2>
+                            <image src="C:/case homework/TriviaGame\/assets/images/arrow.gif"
+                            height= 20, width= 80/>CLICK HERE...IF YOU DARE!!!
+                        </h2>
+                        <div class="horrormp3">
+                           <audio src="C:/case homework/TriviaGame\/assets/horror.mp3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class='test-div'>
+                <h1>HI PATRICK!</h1>
+            </div>-->
+        </div>
+
     
-    <!--<div class="header">                              
-    <h1>Horror Cinema Trivia</h1>
+    <div class="timer">
+        <center>
+            <h1>YOU BETTER HURRY, 
+                <br>YOUR TIME IS RUNNING OUT......
+                <br>
+                <span id="countdowntimer">20</span>
+            </h1>
+        </center>
     </div>
-    <br>
-    <br>-->
+<br>
+<br>
 
-    <!--<div class="timer">
-    <center>
-    <h1>YOU BETTER HURRY, 
-    <br>YOUR TIME IS RUNNING OUT......
-    <br>
-    <span id="countdowntimer">20</span></h1>
-    </center>
-    </div>
-    <br>
-    <br>-->
-
-    <!--<div class="directions">
-    <h2>Answer the following 5 questions</h2><br>
-    <h2>as if your life depends on it!!!</h2><br>
-    <h2>You have 20 seconds to answer each question</h2>
-
-    <div class="button">
-    <button id="popcorn">
-    <image src="C:/case homework/TriviaGame\/assets/images/popcorn.gif"
-    height= 115, width= 115></button>
-
-    <div class="aside">
-    <h2><image src="C:/case homework/TriviaGame\/assets/images/arrow.gif"
-    height= 20, width= 100/>CLICK HERE...IF YOU DARE!!!</h2>
-    </div>-->
-
-    <!--<div class="question1">
-    <h2>What year was the original </h2>
+    <div class="question1">
+    <h2>1)What year was the original </h2>
     <h2>"Texas Chainsaw Massacre" </h2> 
     <h2>released??</h2>
    <br>
    <div class="buttons1">
-    <input type="radio" id="radio1" name="radios" value="all" checked>
+    <input type="radio" id="radio1" name="radios" value="all">
        <label for="radio1">1968</label>
-    <input type="radio" id="radio2" name="radios" value="false">
+    <input type="radio" id="radio2" name="radios" value="all">
        <label for="radio2">1979</label>
-    <input type="radio" id="radio3" name="radios" value="true">
+    <input type="radio" id="radio3" name="radios" value="all">
        <label for="radio3">1981</label> 
-    <input type="radio" id="radio1" name="radios" value="all" checked>
+    <input type="radio" id="radio1" name="radios" value="all">
        <label for="radio1">1974</label>
     </div>
-    </div>-->
+    </div>
+    
 
     <!--<div class="question2">
-    <h2>How old was Linda Blair when she earned the role</h2>
+    <h2>2)How old was Linda Blair when she earned the role</h2>
     <h2>of Regan MacNeil (the possessed girl)</h2>
     <h2>in "The Exorcist"??</h2>
     <br>
-    <div class="buttons1">
+    <div class="buttons2">
     <input type="radio" id="radio1" name="radios" value="all" checked>
        <label for="radio1">16</label>
     <input type="radio" id="radio2" name="radios" value="false">
@@ -87,9 +107,9 @@
     </div>-->
 
      <!--<div class="question3">
-    <h2>Who directed the original "Halloween (1978)" film??</h2>
+    <h2>3)Who directed the original "Halloween (1978)" film??</h2>
     <br>
-    <div class="buttons1">
+    <div class="buttons3">
     <input type="radio" id="radio1" name="radios" value="all" checked>
        <label for="radio1">Tobe Hooper</label>
     <input type="radio" id="radio2" name="radios" value="false">
@@ -102,10 +122,10 @@
     </div>-->
 
     <!--<div class="question4">
-    <h2>Who is doing all the killing in the original</h2>
+    <h2>4)Who is doing all the killing in the original</h2>
     <h2>"Friday the 13th (1980)"??</h2> 
     <br>
-    <div class="buttons1">
+    <div class="buttons4">
     <input type="radio" id="radio1" name="radios" value="all" checked>
        <label for="radio1">Jason Vorhees</label>
     <input type="radio" id="radio2" name="radios" value="false">
@@ -118,10 +138,10 @@
     </div>-->
 
      <!--<div class="question5">
-     <h2>In the film "The Shining (1980)", Jack Nicholson's</h2>
+     <h2>5)In the film "The Shining (1980)", Jack Nicholson's</h2>
      <h2>character name is....</h2> 
     <br>
-    <div class="buttons1">
+    <div class="buttons5">
     <input type="radio" id="radio1" name="radios" value="all" checked>
        <label for="radio1">Terrence Hadly</label>
     <input type="radio" id="radio2" name="radios" value="false">
@@ -215,7 +235,7 @@
     height= 50, width= 110/>
     </div>
     <div class="text">
-    <h2>CLICK ON MR. LECTER TO CONTINUE GAME!!!</h2>
+    <h2>CLICK ON MR. LECTER TO SEE YOUR FINAL SCORE</h2>
     </div>
     </div>-->
 
@@ -300,11 +320,11 @@
     height= 50, width= 110/>
     </div>
     <div class="text">
-    <h2>CLICK ON MR. LECTER TO CONTINUE GAME!!!</h2>
+    <h2>CLICK ON MR. LECTER TO SEE YOUR FINAL SCORE</h2>
     </div>
     </div>-->
 
-    <div class="rantime1">
+    <!--<div class="rantime1">
     <h1>SORRY.....YOU RAN OUT OF TIME!!!</h1>
     <br>
     <h1>The answer was....1974</h1>
@@ -320,9 +340,9 @@
     <div class="text">
     <h2>CLICK ON MR. LECTER TO CONTINUE GAME!!!</h2>
     </div>
-    </div>
+    </div>-->
 
-   <!-- <div class="rantime2">
+    <!--<div class="rantime2">
     <h1>SORRY.....YOU RAN OUT OF TIME!!!</h1>
     <br>
     <h1>Linda Blaire was 13 years old!</h1>
@@ -390,7 +410,7 @@
     height= 50, width= 110/>
     </div>
     <div class="text">
-    <h2>CLICK ON MR. LECTER TO CONTINUE GAME!!!</h2>
+    <h2>CLICK ON MR. LECTER TO SEE YOUR FINAL SCORE</h2>
     </div>
     </div>-->
 
