@@ -2,6 +2,31 @@
   $(document).ready(function()
   {
 
+    var timeleft = 64;
+    var downloadTimer = setInterval(function(){
+    timeleft--;
+    document.getElementById("countdowntimer").textContent = timeleft;
+    if(timeleft <= 0)
+        clearInterval(downloadTimer);
+    },1000);
+
+    });
+
+   /*function results() {
+    var correctAnswers = 0;
+    var wrongAnswers = 0;
+    foreach "select" {
+        var rightOrWrong = "get value";
+        if (rightOrWrong = right) {
+            correctAnswers++
+        }
+        answersCounter++;
+    }
+    var results = Math.floor((correctAnswers / wrongAnswers) * 100);
+    document.getElementById("score").innerHTML = results;
+    };*/
+
+
   $("#popcorn").on('click', function()
 
     {$(".firstpage").hide()
@@ -237,7 +262,7 @@
 
     $(".question4").hide()
         
-    $(".correctfor4").show()
+    $(".wrongfor4").show()
     $(".continuebutton4").show()
     $(".arrow").show()
     $(".text").show()
@@ -360,16 +385,7 @@
 
 
 
-  var timeleft = 20;
-    var downloadTimer = setInterval(function(){
-    timeleft--;
-    document.getElementById("countdowntimer").textContent = timeleft;
-    if(timeleft <= 0)
-        clearInterval(downloadTimer);
-    },1000);
-
-    })
-
+  
  /*need to delay timer to start until page appears*/
  /*timer goes to zero to change screens*/
  /*score tracking for final score screen*/

@@ -79,7 +79,7 @@
 			}
 
 .horrormp3 {
-		display: none;
+		
 			}
 
 .timer {
@@ -351,7 +351,7 @@
     	left: 0;
     	}
 
-    	.correctfor5 {
+    .correctfor5 {
 	background-image: url("C:/case homework/TriviaGame/assets/images/correctfor5.jpg");
 	font-family: 'Creepster', cursive;
 	display: none;
@@ -558,7 +558,7 @@
 		text-shadow: 2px 2px 5px yellow;
 		font-size: 100px;
 		line-height: 100px;
-		padding-top: 175px;
+		padding-top: 145px;
 
 }
 
