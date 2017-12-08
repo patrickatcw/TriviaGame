@@ -1,6 +1,6 @@
 
 .container {
-		background-image: url("C:/case homework/TriviaGame/assets/images/bw.PNG");
+		background-image: url("C:/casehw/TriviaGame/assets/images/bw.PNG");
 		min-width: 100%;
 		min-height: 100%;
 		position: fixed;
@@ -30,7 +30,7 @@
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
 		line-height: 25px;
-		background-image: url("C:/case homework/TriviaGame/assets/images/start.gif");
+		background-image: url("C:/casehw/TriviaGame/assets/images/start.gif");
 		height: 340px;
 		width: 625px;
 		align-content: center;
@@ -68,7 +68,7 @@
 		font-size: 50px;
 		font-weight: bold;
 		line-height: 65px;
-		background-image: url("C:/case homework/TriviaGame/assets/images/1.gif");
+		background-image: url("C:/casehw/TriviaGame/assets/images/1.gif");
 		height: 340px;
 		width: 625px;
 		align-content: center;
@@ -107,7 +107,7 @@
 		font-size: 40px;
 		font-weight: bold;
 		line-height: 55px;
-		background-image: url("C:/case homework/TriviaGame/assets/images/2.gif");
+		background-image: url("C:/casehw/TriviaGame/assets/images/2.gif");
 		height: 340px;
 		width: 625px;
 		align-content: center;
@@ -126,7 +126,7 @@
 		font-size: 49px;
 		font-weight: bold;
 		line-height: 60px;
-		background-image: url("C:/case homework/TriviaGame/assets/images/3.gif");
+		background-image: url("C:/casehw/TriviaGame/assets/images/3.gif");
 		height: 323px;
 		width: 625px;
 		align-content: center;
@@ -145,7 +145,7 @@
 		font-size: 40px;
 		font-weight: bold;
 		line-height: 50px;
-		background-image: url("C:/case homework/TriviaGame/assets/images/4.gif");
+		background-image: url("C:/casehw/TriviaGame/assets/images/4.gif");
 		height: 340px;
 		width: 625px;
 		align-content: center;
@@ -164,7 +164,7 @@
 		font-size: 30px;
 		font-weight: bold;
 		line-height: 38px;
-		background-image: url("C:/case homework/TriviaGame/assets/images/5.gif");
+		background-image: url("C:/casehw/TriviaGame/assets/images/5.gif");
 		height: 230px;
 		width: 450px;
 		align-content: center;
@@ -176,7 +176,7 @@
 
 
 .wrongfor1 {
-	background-image: url("C:/case homework/TriviaGame/assets/images/wrongfor1.jpg");
+	background-image: url("C:/casehw/TriviaGame/assets/images/wrongfor1.jpg");
 	font-family: 'Creepster', cursive;
 	display: none;
 		color: red;
@@ -198,7 +198,7 @@
 
 
 .wrongfor2 {
-	background-image: url("C:/case homework/TriviaGame/assets/images/wrongfor2.jpg");
+	background-image: url("C:/casehw/TriviaGame/assets/images/wrongfor2.PNG");
 	font-family: 'Creepster', cursive;
 	display: none;
 	color: red;
@@ -219,13 +219,13 @@
 
 
 .wrongfor3 {
-	background-image: url("C:/case homework/TriviaGame/assets/images/wrongfor3.PNG");
+	background-image: url("C:/casehw/TriviaGame/assets/images/wrongfor3.PNG");
 	font-family: 'Creepster', cursive;
 	display: none;
 		color: red;
 		text-shadow: 2px 2px 5px yellow;
 		text-align: center;
-		font-size: 100px;
+		font-size: 90px;
 		padding-top: 20px;
 		line-height: 100px;
 		min-width: 100%;
@@ -238,7 +238,7 @@
     	}
 	
 .wrongfor4 {
-	background-image: url("C:/case homework/TriviaGame/assets/images/wrongfor4.jpg");
+	background-image: url("C:/casehw/TriviaGame/assets/images/wrongfor4.PNG");
 	font-family: 'Creepster', cursive;
 	display: none;
 		color: red;
@@ -257,7 +257,7 @@
     	}
 
 .wrongfor5 {
-	background-image: url("C:/case homework/TriviaGame/assets/images/wrongfor5.jpg");
+	background-image: url("C:/casehw/TriviaGame/assets/images/wrongfor5.PNG");
 	font-family: 'Creepster', cursive;
 	display: none;
 		color: red;
@@ -276,7 +276,7 @@
     	}
 
     .correctfor1 {
-	background-image: url("C:/case homework/TriviaGame/assets/images/correctfor1.jpg");
+	background-image: url("C:/casehw/TriviaGame/assets/images/correctfor1.PNG");
 	font-family: 'Creepster', cursive;
 	display: none;
 		color: red;
@@ -295,7 +295,7 @@
     	}
 
     	.correctfor2 {
-	background-image: url("C:/case homework/TriviaGame/assets/images/correctfor2.jpg");
+	background-image: url("C:/casehw/TriviaGame/assets/images/correctfor2.jpg");
 	font-family: 'Creepster', cursive;
 	display: none;
 		color: red;
@@ -314,7 +314,7 @@
     	}
 
     	.correctfor3 {
-	background-image: url("C:/case homework/TriviaGame/assets/images/correctfor3.jpg");
+	background-image: url("C:/casehw/TriviaGame/assets/images/correctfor3.PNG");
 	font-family: 'Creepster', cursive;
 	display: none;
 		color: red;
@@ -333,7 +333,7 @@
     	}
 
     	.correctfor4 {
-	background-image: url("C:/case homework/TriviaGame/assets/images/correctfor4.jpg");
+	background-image: url("C:/casehw/TriviaGame/assets/images/correctfor4.PNG");
 	font-family: 'Creepster', cursive;
 	display: none;
 		color: red;
@@ -352,7 +352,7 @@
     	}
 
     .correctfor5 {
-	background-image: url("C:/case homework/TriviaGame/assets/images/correctfor5.jpg");
+	background-image: url("C:/casehw/TriviaGame/assets/images/correctfor5.PNG");
 	font-family: 'Creepster', cursive;
 	display: none;
 		color: red;
@@ -371,7 +371,7 @@
     	}
 
     .rantime1 {
-    	background-image: url("C:/case homework/TriviaGame/assets/images/rantime.PNG");
+    	background-image: url("C:/casehw/TriviaGame/assets/images/rantime.PNG");
 		font-family: 'Creepster', cursive;
 		display: none;
 		color: red;
@@ -390,7 +390,7 @@
 		 }
 
 		.rantime2 {
-    	background-image: url("C:/case homework/TriviaGame/assets/images/rantime.PNG");
+    	background-image: url("C:/casehw/TriviaGame/assets/images/rantime.PNG");
 		font-family: 'Creepster', cursive;
 		display: none;
 		color: red;
@@ -409,7 +409,7 @@
 		 }
 
 		.rantime3 {
-    	background-image: url("C:/case homework/TriviaGame/assets/images/rantime.PNG");
+    	background-image: url("C:/casehw/TriviaGame/assets/images/rantime.PNG");
 		font-family: 'Creepster', cursive;
 		display: none;
 		color: red;
@@ -428,7 +428,7 @@
 		 }
 
 		.rantime4 {
-    	background-image: url("C:/case homework/TriviaGame/assets/images/rantime.PNG");
+    	background-image: url("C:/casehw/TriviaGame/assets/images/rantime.PNG");
 		font-family: 'Creepster', cursive;
 		display: none;
 		color: red;
@@ -447,7 +447,7 @@
 		 }
 
 		.rantime5 {
-    	background-image: url("C:/case homework/TriviaGame/assets/images/rantime.PNG");
+    	background-image: url("C:/casehw/TriviaGame/assets/images/rantime.PNG");
 		font-family: 'Creepster', cursive;
 		display: none;
 		color: red;

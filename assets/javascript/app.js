@@ -1,17 +1,3 @@
-   
-  $(document).ready(function()
-  {
-
-    var timeleft = 64;
-    var downloadTimer = setInterval(function(){
-    timeleft--;
-    document.getElementById("countdowntimer").textContent = timeleft;
-    if(timeleft <= 0)
-        clearInterval(downloadTimer);
-    },1000);
-
-    });
-
    /*function results() {
     var correctAnswers = 0;
     var wrongAnswers = 0;
@@ -26,28 +12,29 @@
     document.getElementById("score").innerHTML = results;
     };*/
 
-
   $("#popcorn").on('click', function()
-
     {$(".firstpage").hide()
-
-  $(".timer").show() 
-  $(".question1").show()
+      $(".timer").show() 
+      $(".question1").show()
+       {
+    var timeleft = 60;
+    var downloadTimer = setInterval(function(){
+    timeleft--;
+    document.getElementById("countdowntimer").textContent = timeleft;
+    if(timeleft <= 0)
+        clearInterval(downloadTimer);
+    },1000);
+    }
     });
 
-
-
   $("#radio1").on('click', function()
-
     {$(".timer").hide() 
-
-    $(".question1").hide()
-        
-    $(".wrongfor1").show()
-    $(".continuebutton").show()
-    $(".arrow").show()
-    $(".text").show()
-     });
+      $(".question1").hide()
+        $(".wrongfor1").show()
+        $(".continuebutton").show()
+        $(".arrow").show()
+        $(".text").show()
+        });
 
   
   $("#radio2").on('click', function()
